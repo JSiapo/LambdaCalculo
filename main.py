@@ -23,6 +23,7 @@ def view_expression():
 def values_arguments():
     for i in argument:
         values_argument.append( input('{} -> '.format(i)))
+    print('Los elementos son: {}'.format(values_argument))
 
 
 # expression for example is f(x+y+z)=2*(x+3)
@@ -44,5 +45,5 @@ original_expression()
 print('\n\nExpression LambdaC')
 view_expression()
 print('\n')
-#values_arguments()
-#print('\n')
+values_arguments()
+print('\n')
